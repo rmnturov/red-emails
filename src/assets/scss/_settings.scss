@@ -14,20 +14,20 @@
 // 1. Global
 // ---------
 $primary-color: #c03c40;
-$secondary-color: #777777;
+$secondary-color: #0168bb;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
-$light-gray: #f3f3f3;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$light-gray: #f2f2f2;
+$medium-gray: #d9d9d9;
+$dark-gray: #808080;
+$black: #000000;
+$white: #ffffff;
 $pre-color: #ff6908;
 $global-width: 540px;
 $global-width-small: 88%;
-$global-gutter: 16px;
-$body-background: $light-gray;
+$global-gutter: 30px;
+$body-background: $white;
 $container-background: $white;
 $global-padding: 18px;
 $global-margin: 18px;
@@ -60,7 +60,7 @@ BlinkMacSystemFont,
 sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
-$global-line-height: 1.3;
+$global-line-height: 1.4;
 $global-font-size: 17px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
@@ -81,15 +81,15 @@ $text-padding: 10px;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
 $subheader-font-weight: $global-font-weight;
-$subheader-margin-top: 4px;
-$subheader-margin-bottom: 8px;
+$subheader-margin-top: 6px;
+$subheader-margin-bottom: 12px;
 $hr-width: $global-width;
-$hr-border: 1px solid $black;
-$hr-margin: 20px auto;
+$hr-border: 1px solid $light-gray;
+$hr-margin: 18px auto;
 $anchor-text-decoration: none;
-$anchor-color: $primary-color;
+$anchor-color: $secondary-color;
 $anchor-color-visited: $anchor-color;
-$anchor-color-hover: darken($primary-color, 10%);
+$anchor-color-hover: $primary-color;
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
 // 5. Button
@@ -119,7 +119,7 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 // -------
 $menu-item-padding: 0px;
 $menu-item-gutter: 12px;
-$menu-item-color: $primary-color;
+$menu-item-color: $secondary-color;
 // 8. Thumbnail
 // ------------
 $thumbnail-border: solid 4px $white;
