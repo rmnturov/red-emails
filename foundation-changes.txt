@@ -1,0 +1,27 @@
+// правка в файле inky/componentFactory.js
+// <hrline>
+    case this.components.hrline:
+      var classes = ['hrline'];
+      if (element.attr('class')) {
+        classes = classes.concat(element.attr('class').split(' '));
+}
+
+
+//правка в файле inky.js
+// добавил компонент hrline в extend
+// HTML tags for custom components
+  this.components = extend({
+    button: 'button',
+    row: 'row',
+    columns: 'columns',
+    container: 'container',
+    callout: 'callout',
+    inky: 'inky',
+    blockGrid: 'block-grid',
+    menu: 'menu',
+    menuItem: 'item',
+    center: 'center',
+    spacer: 'spacer',
+    wrapper: 'wrapper',
+    hrline: 'hrline'
+  }, options.components || {});

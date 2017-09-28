@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
 
 <head>
   <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
@@ -17,11 +17,12 @@
   <span class="preheader">{{description}}</span>
   <table class="body">
     <tr>
-      <td class="center" align="center" valign="top">
-        <center>
-          {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}} {{> header}}
-          {{> nav}} {{> body}} {{> nav}} {{> footer}}
-        </center>
+      <!-- <td class="center" align="center" valign="top"> -->
+      <td>
+        <!-- <center> -->
+        {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}} {{> header}}
+        {{> nav}} {{> body}} {{> nav}} {{> footer}}
+        <!-- </center> -->
       </td>
     </tr>
   </table>
