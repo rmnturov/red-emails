@@ -51,10 +51,17 @@ background: $callout-background;
 }
 
 
+
+.header-logo {
+  max-width: 107px !important;
+  width: 100% !important;
+}
+
 @media only screen and (max-width: $global-breakpoint) {
     .header-logo {
-        width: 107px;
-        height: 45px !important;
+        width: 100%;
+        max-width: 107px;
+        // height: 45px !important;
         margin-bottom: 0px;
         Margin-bottom: 0px;
     }
@@ -75,8 +82,8 @@ background: $callout-background;
     }
 
     .button-appmarket {
-        width: 120px !important;
-        height: 36px !important;
+        max-width: 120px !important;
+        width: 100% !important;
     }
     img.small-float-left {
         float: left;
@@ -154,3 +161,21 @@ th.columns table.menu ,th.column table.menu {
 img {
     background-color: $light-gray;
 }
+
+.wrapper-promo {
+    background: #E6F4FF;
+    .container {
+      background: #E6F4FF;
+    }
+    h1, p {
+      color: black;
+    }
+    img {
+      background: none;
+    }
+}
+
+// Ретина изображения
+// Прописывать в атрибутах ширину, высоту не прописывать, в стиляъ прописывать ширину 100%, максимальную ширину равню ширине картинке в 1x
+
+// Откат шрифта для Outlook

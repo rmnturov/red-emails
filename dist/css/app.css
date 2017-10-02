@@ -263,7 +263,7 @@ td,
 th,
 a {
   color: #000000;
-  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -279,7 +279,7 @@ h5,
 h6 {
   color: inherit;
   word-wrap: normal;
-  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: normal;
   margin-bottom: 18px;
   Margin-bottom: 18px; }
@@ -353,7 +353,7 @@ table.button {
     background: #c03c40;
     border: 2px solid #c03c40; }
     table.button table td a {
-      font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      font-family: "PT Sans", Arial, sans-serif;
       font-size: 17px;
       font-weight: normal;
       color: #ffffff;
@@ -656,10 +656,14 @@ th.callout-inner {
     border: none;
     color: #000000; }
 
+.header-logo {
+  max-width: 107px !important;
+  width: 100% !important; }
+
 @media only screen and (max-width: 570px) {
   .header-logo {
-    width: 107px;
-    height: 45px !important;
+    width: 100%;
+    max-width: 107px;
     margin-bottom: 0px;
     Margin-bottom: 0px; }
   table.body .columns {
@@ -675,8 +679,8 @@ th.callout-inner {
     mso-hide: all;
     overflow: hidden; }
   .button-appmarket {
-    width: 120px !important;
-    height: 36px !important; }
+    max-width: 120px !important;
+    width: 100% !important; }
   img.small-float-left {
     float: left;
     text-align: left; } }
@@ -727,73 +731,23 @@ th.columns table.menu {
 img {
   background-color: #f2f2f2; }
 
-th.large-3 {
-  width: 105px;
-  padding-left: 15px;
-  padding-right: 15px; }
+.wrapper-promo {
+  background: #E6F4FF; }
+  .wrapper-promo .container {
+    background: #E6F4FF; }
+  .wrapper-promo h1, .wrapper-promo p {
+    color: black; }
+  .wrapper-promo img {
+    background: none; }
 
-th.large-3.first {
-  padding-left: 0; }
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url(https://fonts.gstatic.com/s/ptsans/v8/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff) format("woff"); }
 
-th.large-3.last {
-  padding-right: 0; }
-
-th.large-4 {
-  width: 150px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-th.large-4.first {
-  padding-left: 0; }
-
-th.large-4.last {
-  padding-right: 0; }
-
-th.large-5 {
-  width: 195px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-th.large-5.last {
-  padding-right: 0; }
-
-th.large-6 {
-  width: 240px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-th.large-6.first {
-  padding-left: 0; }
-
-th.large-6.last {
-  padding-right: 0; }
-
-th.large-7 {
-  width: 285px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-th.large-7.first {
-  padding-left: 0; }
-
-th.large-8 {
-  width: 330px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-th.large-8.first {
-  padding-left: 0; }
-
-th.large-8.last {
-  padding-right: 0; }
-
-th.large-12 {
-  width: 510px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-th.large-12.first {
-  padding-left: 0; }
-
-th.large-12.last {
-  padding-right: 0; }
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url(https://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNL3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }

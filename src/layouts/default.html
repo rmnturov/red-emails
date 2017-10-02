@@ -9,24 +9,36 @@
   <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext"
     rel="stylesheet">
-
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <title>{{subject}}</title>
-  <!-- <style> -->
+  <!--[if mso]>
+<style type=”text/css”>
+table, td, p, span, h1, h2, h3, a, small, th, tr, body {
+font-family: Arial, sans-serif !important;
+}
+</style>
+<![endif]-->
 </head>
 
 <body>
+  <!--[if mso]>
+<style type=”text/css”>
+table, td, p, span, h1, h2, h3, a, small, th, tr, body {
+font-family: Arial, sans-serif !important;
+}
+</style>
+<![endif]-->
+  <!-- Injection point for the inline <style> element. Don't remove this comment! -->
+  <!-- <style> -->
+  <!-- Wrapper for the body of the email -->
   <span class="preheader">{{description}}</span>
   <table class="body">
     <tr>
-      <!-- <td class="center" align="center" valign="top"> -->
       <td>
-        <!-- <center> -->
         {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened
         emails are created. --}} {{> header}} {{> nav}} {{> body}} {{> nav}} {{>
         footer}}
-        <!-- </center> -->
       </td>
     </tr>
   </table>
